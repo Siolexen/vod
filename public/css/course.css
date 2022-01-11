@@ -1,0 +1,79 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.user-info a {
+  color: #79253d;
+}
+
+.block-course {
+  color: #79253d;
+}
+.block-course a {
+  color: #79253d;
+}
+.block-course .active-text {
+  color: #525252;
+}
+.block-course .box-title {
+  background-color: #79253d;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  width: fit-content;
+  float: right;
+}
+.block-course .color-white-text {
+  color: #fff;
+}
+.block-course .block-content {
+  padding: 30px;
+  background: #ffffff;
+}
+.block-course .miniature-course-detail {
+  padding: 0;
+}
+.block-course .miniature-course-detail .info {
+  padding: 0;
+}
+.block-course .miniature-course-detail .miniature-course-title {
+  color: #000;
+}
+.block-course .miniature-course-detail .time-course {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+}
+
+.show-course iframe {
+  width: 100%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #79253d;
+  border-color: #b36582;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #79253d;
+  border-color: #b36582;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #79253d;
+  border-color: #b36582;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(121, 37, 61, 0.5);
+}
+
+/*# sourceMappingURL=course.css.map */
